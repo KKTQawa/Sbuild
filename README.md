@@ -2,6 +2,7 @@
 
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-1.20--1.21-brightgreen)](https://www.minecraft.net/)
 [![Forge Version](https://img.shields.io/badge/Forge-46%2B-orange)](https://files.minecraftforge.net/)
+[![ECNU-Minecraft-Mod-Template](https://img.shields.io/badge/Template-ECNU--Minecraft--Mod--Template-lightgrey)](https://github.com/Viola-Siemens/ECNU-Minecraft-Mod-Template)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 [![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-yellow)](https://github.com/KKTQawa/Sbuild/issues)
 
@@ -111,7 +112,7 @@ This mod is mainly designed for:
 ## 📦 Installation
 
 1. Install [Minecraft Forge](https://files.minecraftforge.net/) (version 46 or higher)  
-2. Download the latest **Sbuild** `.jar` from [Releases](https://github.com/KKTQawa/Sbuild/releases)  
+2. Download the latest **Sbuild** `.jar` from [Releases](https://github.com/KKTQawa/Sbuild/releases)
 3. Place the `.jar` file into your `mods` folder  
 4. Launch Minecraft using the Forge profile  
 
@@ -129,10 +130,11 @@ This mod is mainly designed for:
 
 ```bash
 ./gradlew build
-
+```
 The compiled .jar will be located in:
-
+```
 build/libs/
+```
 📜 License
 
 This project is licensed under the MIT License.
@@ -142,12 +144,17 @@ See the LICENSE
 👥 Credits
 Authors: 9090
 Contributors: Liu Dongyu, 9090
-💬 Support
 
-If you encounter bugs or have suggestions, feel free to open an issue:
-
-👉 https://github.com/KKTQawa/Sbuild/issues
-
-⚖️ Disclaimer
+## ⚖️ Disclaimer
 
 This mod is not affiliated with Mojang Studios or East China Normal University.
+
+---
+
+## 📦 Acknowledgement
+
+This project is based on the following template:
+
+👉 https://github.com/Viola-Siemens/ECNU-Minecraft-Mod-Template
+
+Special thanks to the authors of **ECNU-Minecraft-Mod-Template** for providing the foundation.
