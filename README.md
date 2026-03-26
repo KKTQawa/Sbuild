@@ -1,5 +1,7 @@
 # Sbuild
 
+[中文](README_zh.md)
+
 [![Minecraft Version](https://img.shields.io/badge/Minecraft-1.20--1.21-brightgreen)](https://www.minecraft.net/)
 [![Forge Version](https://img.shields.io/badge/Forge-46%2B-orange)](https://files.minecraftforge.net/)
 [![ECNU-Minecraft-Mod-Template](https://img.shields.io/badge/Template-ECNU--Minecraft--Mod--Template-lightgrey)](https://github.com/Viola-Siemens/ECNU-Minecraft-Mod-Template)
@@ -39,7 +41,7 @@ Otherwise, blocks added by this mod may be missing, which can cause structures t
   Clean grid-style blocks for detailed architectural builds.Here are partial previews:
   ![Grid Blocks](resources/images/grid_blocks.png)
 
-- **Other Blocks**  
+- **Others**  
   Additional decorative and functional blocks  
   ![Other Blocks](resources/images/others.png)  
   ![Extra Blocks](resources/images/extra_blocks.png)
@@ -69,6 +71,8 @@ Otherwise, blocks added by this mod may be missing, which can cause structures t
 #### 🏫 School Buildings
 - Generate in **flat terrain & oceans**
 
+- Dorm Lobby
+
 /locate structure sbuild:dorm_5_lobby
 
 ![Dorm Lobby](resources/images/no_5_dorm_lobby.png)
@@ -84,13 +88,9 @@ Otherwise, blocks added by this mod may be missing, which can cause structures t
 #### 📮 Post Stations
 - Generate in **flat terrain & oceans**
 
-- Post Station 1:
-
 /locate structure sbuild:post_station1
 
 ![Post Station 1](resources/images/post_station1.png)
-
-- Post Station 2:
 
 /locate structure sbuild:post_station2
 
@@ -101,13 +101,10 @@ Otherwise, blocks added by this mod may be missing, which can cause structures t
 #### 🌉 Bridges
 - Generate **only in river biomes**
 
-- Bridge 1:
-
 /locate structure sbuild:bridge1
 
 ![Bridge 1](resources/images/bridge1.png)
 
-- Bridge 2:
 
 /locate structure sbuild:bridge2
 
@@ -151,15 +148,11 @@ See the LICENSE
 Authors: 9090
 Contributors: Liu Dongyu, 9090
 
-## ⚖️ Disclaimer
-
-This mod is not affiliated with Mojang Studios or East China Normal University.
-
 ---
 
 ## 📦 Acknowledgement
 
-This project is based on the following template:
+This project is based on the following template,and uses some of its code:
 
 👉 https://github.com/Viola-Siemens/ECNU-Minecraft-Mod-Template
 
