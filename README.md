@@ -105,7 +105,7 @@ This mod is mainly designed for:
 
 /locate structure sbuild:bridge2
 
-![Bridge 2](resources/images/bridge1.png)
+![Bridge 2](resources/images/bridge2.png)
 
 ---
 
