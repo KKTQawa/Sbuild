@@ -1,0 +1,15 @@
+{
+  "values": [
+    "sbuild:double_grid_blue",
+    "sbuild:double_grid_red",
+    "sbuild:double_grid_yellow",
+    "sbuild:double_grid_green",
+    "sbuild:double_grid_purple",
+    "sbuild:double_grid_gold",
+    "sbuild:double_grid_orange",
+    "sbuild:double_grid_pink",
+    "sbuild:double_grid_white",
+    "sbuild:double_grid_sky_blue",
+    "sbuild:double_grid_black"
+  ]
+}

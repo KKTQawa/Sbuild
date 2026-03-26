@@ -1,0 +1,21 @@
+{
+  "values": [
+    "sbuild:double_line_blue",
+    "sbuild:double_line_red",
+    "sbuild:double_line_yellow",
+    "sbuild:double_line_green",
+    "sbuild:double_line_purple",
+    "sbuild:double_line_gold",
+    "sbuild:double_line_orange",
+    "sbuild:double_line_pink",
+    "sbuild:double_line_white",
+    "sbuild:double_line_sky_blue",
+    "sbuild:double_line_light_blue",
+    "sbuild:double_line_light_green",
+    "sbuild:double_line_light_purple",
+    "sbuild:double_line_light_pink",
+    "sbuild:double_line_light_orange",
+    "sbuild:double_line_light_red",
+    "sbuild:double_line_black"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "sbuild:block/box/box_1",
+    "side": "sbuild:block/box/box_1",
+    "top": "sbuild:block/box/box_2"
+  }
+}

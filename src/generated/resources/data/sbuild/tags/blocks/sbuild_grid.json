@@ -1,0 +1,14 @@
+{
+  "values": [
+    "sbuild:grid_blue",
+    "sbuild:grid_red",
+    "sbuild:grid_yellow",
+    "sbuild:grid_green",
+    "sbuild:grid_purple",
+    "sbuild:grid_gold",
+    "sbuild:grid_orange",
+    "sbuild:grid_pink",
+    "sbuild:grid_white",
+    "sbuild:grid_sky_blue"
+  ]
+}

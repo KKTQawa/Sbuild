@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "sbuild:block/double_line_yellow"
+    },
+    "facing=east": {
+      "model": "sbuild:block/double_line_yellow",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "sbuild:block/double_line_yellow",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "sbuild:block/double_line_yellow",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "sbuild:block/double_line_yellow"
+    },
+    "facing=west": {
+      "model": "sbuild:block/double_line_yellow",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -25,9 +25,8 @@ version = mod_version
 group = 'org.ecnumc.ecnu'
 
 base {
-    archivesName = 'ecnu'
+    archivesName = 'sbuild-1.20.1'
 }
-archivesBaseName = 'ecnu'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -51,11 +50,11 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'ecnu'
-            arg "-mixin.config=ecnu.mixins.json"
+            property 'forge.enabledGameTestNamespaces', 'sbuild'
+            arg "-mixin.config=sbuild.mixins.json"
 
             mods {
-                ecnu {
+                sbuild {
                     source sourceSets.main
                 }
             }
@@ -70,11 +69,11 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'ecnu'
-            arg "-mixin.config=ecnu.mixins.json"
+            property 'forge.enabledGameTestNamespaces', 'sbuild'
+            arg "-mixin.config=sbuild.mixins.json"
 
             mods {
-                ecnu {
+                sbuild {
                     source sourceSets.main
                 }
             }
@@ -93,7 +92,7 @@ minecraft {
             arg "-mixin.config=ecnu.mixins.json"
 
             mods {
-                ecnu {
+                sbuild {
                     source sourceSets.main
                 }
             }
@@ -108,11 +107,11 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'ecnu', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
-            arg "-mixin.config=ecnu.mixins.json"
+            args '--mod', 'sbuild', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            arg "-mixin.config=sbuild.mixins.json"
 
             mods {
-                ecnu {
+                sbuild {
                     source sourceSets.main
                 }
             }
@@ -146,16 +145,18 @@ dependencies {
 }
 
 jar {
+    archiveBaseName.set("sbuild")
+    archiveVersion.set("1.20.1-forge-${version}")
+
     manifest {
         attributes([
                 "Specification-Title"     : "ECNU Craft is Not Useless",
-                "Specification-Vendor"    : "Liu Dongyu",
+                "Specification-Vendor"    : "9090",
                 "Specification-Version"   : "1",
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "Liu Dongyu",
-                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-                'FMLCorePluginContainsFMLMod': 'true'
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
 }
@@ -186,8 +187,8 @@ publishing {
 }
 
 mixin {
-    add sourceSets.main, 'ecnu.refmap.json'
-    config 'ecnu.mixins.json'
+    add sourceSets.main, 'sbuild.refmap.json'
+    config 'sbuild.mixins.json'
 
     debug.verbose = true
     debug.export = true

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "sbuild:block/line_light_pink"
+    },
+    "facing=east": {
+      "model": "sbuild:block/line_light_pink",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "sbuild:block/line_light_pink",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "sbuild:block/line_light_pink",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "sbuild:block/line_light_pink"
+    },
+    "facing=west": {
+      "model": "sbuild:block/line_light_pink",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

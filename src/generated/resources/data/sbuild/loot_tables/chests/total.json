@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/low_1",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/low_2",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/low_3",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/low_4",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/low_5",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/low_6",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/low_7",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/low_8",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/low_9",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/medium_1",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/medium_2",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/high_1",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/high_2",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/high_3",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sbuild:chests/high_4",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "sbuild:chests/total"
+}

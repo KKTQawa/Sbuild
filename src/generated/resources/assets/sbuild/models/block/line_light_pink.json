@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "sbuild:block/line_light_pink",
+    "side": "sbuild:block/line_light_pink",
+    "top": "sbuild:block/grid_pink"
+  }
+}

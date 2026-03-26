@@ -1,0 +1,20 @@
+{
+  "values": [
+    "sbuild:line_blue",
+    "sbuild:line_red",
+    "sbuild:line_yellow",
+    "sbuild:line_green",
+    "sbuild:line_purple",
+    "sbuild:line_gold",
+    "sbuild:line_orange",
+    "sbuild:line_pink",
+    "sbuild:line_white",
+    "sbuild:line_sky_blue",
+    "sbuild:line_light_blue",
+    "sbuild:line_light_green",
+    "sbuild:line_light_purple",
+    "sbuild:line_light_pink",
+    "sbuild:line_light_orange",
+    "sbuild:line_light_red"
+  ]
+}

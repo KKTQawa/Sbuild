@@ -1,0 +1,22 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"18": "mc/texture/grid/grid_green",
+		"particle": "mc/texture/line/light_blue_line"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#18"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#18"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#18"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#18"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#18"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#18"}
+			}
+		}
+	]
+}

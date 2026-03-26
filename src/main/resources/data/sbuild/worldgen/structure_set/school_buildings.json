@@ -1,0 +1,27 @@
+
+{
+  "structures": [
+    {
+      "structure": "sbuild:school_gate",
+      "weight": 1
+    },
+    {
+      "structure": "sbuild:dorm_5_lobby",
+      "weight": 1
+    },
+    {
+      "structure": "sbuild:post_station1",
+      "weight": 1
+    },
+    {
+      "structure": "sbuild:post_station2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 10,
+    "salt": 123456119
+  }
+}

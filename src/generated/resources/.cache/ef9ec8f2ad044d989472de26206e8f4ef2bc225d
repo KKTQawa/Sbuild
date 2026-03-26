@@ -1,0 +1,9 @@
+// 1.20.1	2026-03-26T14:46:18.214429	Tags for minecraft:block mod id sbuild
+266c9c6d0e87e7209dee5d0bb2a7e64df1384405 data/minecraft/tags/blocks/mineable/axe.json
+c9ef351d8fba881b5c0c7a7330997bae1bbb8678 data/minecraft/tags/blocks/mineable/pickaxe.json
+493847e4712cdd32200d36c03cb58ec37a652fda data/minecraft/tags/blocks/needs_stone_tool.json
+5e7b78b6127c94dfc6fdafd73481f53e4115c19f data/sbuild/tags/blocks/sbuild_building_block.json
+48cae7a73d10ab5febcbc4c6352f9ade28f160e3 data/sbuild/tags/blocks/sbuild_double_grid.json
+425a84763ab702ee443d8f44c74e511640eb593e data/sbuild/tags/blocks/sbuild_double_line.json
+1de487ecbe18af5523471664ada5ca614a7e7ef9 data/sbuild/tags/blocks/sbuild_grid.json
+0f57af21f9e495ecd6080cd06fb1abedd781aa3d data/sbuild/tags/blocks/sbuild_line.json

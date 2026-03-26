@@ -4,23 +4,24 @@ license="MIT"
 issueTrackerURL="https://github.com/Viola-Siemens/ECNU-Minecraft-Mod-Template/issues"
 
 [[mods]]
-modId="ecnu"
+modId="sbuild"
 version="${file.jarVersion}"
-displayName="ECNU Craft is Not Useless"
-credits="Liu Dongyu"
-authors="Liu Dongyu"
-logoFile="logo.png"
+displayName="Sbuild"
+credits="Liu Dongyu、9090"
+authors="9090"
+logoFile="logo1_128.png"
 description='''
 Make ECNU Greate Again!!!
 '''
-
-[[dependencies.ecnu]]
+[[mixins]]
+config="sbuild.mixins.json"
+[[dependencies.sbuild]]
     modId="forge"
     mandatory=true
     versionRange="[46,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.ecnu]]
+[[dependencies.sbuild]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20,1.21)"

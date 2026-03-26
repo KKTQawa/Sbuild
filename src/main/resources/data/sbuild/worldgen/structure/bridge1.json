@@ -1,0 +1,7 @@
+{
+  "type": "sbuild:bridge1",
+  "biomes": "#sbuild:is_region_bridge",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {}
+}

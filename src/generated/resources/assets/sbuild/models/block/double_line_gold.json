@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "sbuild:block/double_line_gold",
+    "side": "sbuild:block/double_line_gold",
+    "top": "sbuild:block/double_grid_gold"
+  }
+}
