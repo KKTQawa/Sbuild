@@ -21,6 +21,12 @@ This mod is mainly designed for:
 
 ---
 
+## ⚠️ Notice
+Do NOT remove this mod from an existing world casually. 
+Otherwise, blocks added by this mod may be missing, which can cause structures to break.
+
+---
+
 ## ✨ Features
 
 ### 🧱 Building Blocks
