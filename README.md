@@ -140,19 +140,24 @@ Otherwise, blocks added by this mod may be missing, which can cause structures t
 ```bash
 ./gradlew build
 ```
+
 The compiled .jar will be located in:
+
 ```
 build/libs/
 ```
-📜 License
+
+---
+## 📜 License
 
 This project is licensed under the MIT License.
 See the LICENSE
  file for details.
 
-👥 Credits
-Authors: 9090
-Contributors: Liu Dongyu, 9090
+---
+## 👥 Credits
+- Authors: 9090
+- Contributors: Liu Dongyu, 9090
 
 ---
 
