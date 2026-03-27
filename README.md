@@ -31,6 +31,12 @@ Otherwise, blocks added by this mod may be missing, which can cause structures t
 
 ## ✨ Features
 
+### 🧱 All Items
+
+![All Items](resources/images/items_1.png)
+
+![All Items](resources/images/items_2.png)
+
 ### 🧱 Building Blocks
 
 - **Line Blocks**  

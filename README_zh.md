@@ -31,6 +31,12 @@
 
 ## ✨ 特性
 
+### 🧱 所有物品
+
+![All Items](resources/images/items_1.png)
+
+![All Items](resources/images/items_2.png)
+
 ### 🧱 建筑方块
 
 - **线条方块**  
