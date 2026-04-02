@@ -7,14 +7,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.ecnumc.sbuild.common.items.ModLogo1Item;
 import org.ecnumc.sbuild.common.items.ModLogoItem;
-import org.ecnumc.sbuild.common.items.NullsetItem;
 import org.ecnumc.sbuild.common.items.blockentities.ChestMagicItem;
 import org.ecnumc.sbuild.common.items.building.ECNUBuildingItems;
 import org.ecnumc.sbuild.common.items.building.ECNUDoubleGridItems;
 import org.ecnumc.sbuild.common.items.building.ECNUDoubleLineItems;
 import org.ecnumc.sbuild.common.items.building.grid.*;
 import org.ecnumc.sbuild.common.items.building.line.*;
-import org.ecnumc.sbuild.common.items.foods.EcnuCustardBun;
 
 
 import static org.ecnumc.sbuild.ECNUForge.MODID;
@@ -26,7 +24,6 @@ import static org.ecnumc.sbuild.ECNUForge.MODID;
 public final class ECNUItems {
     private static final DeferredRegister<Item> REGISTER = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
     //entities
-	public static final RegistryObject<NullsetItem> NULLSET = REGISTER.register("nullset", () -> new NullsetItem(new Item.Properties()));
 	//Box
 	public static final RegistryObject<ChestMagicItem> CHEST_MAGIC = REGISTER.register("chest_magic", () -> new ChestMagicItem(ECNUBlocks.CHEST_MAGIC.get(), new Item.Properties()));
 	//logo
@@ -307,7 +304,6 @@ public final class ECNUItems {
 			() -> new ECNUDoubleLineItems.DoubleLineBlackItem(ECNUBlocks.DOUBLE_LINE_BLACK.get(), new Item.Properties())
 	);
 	//foods
-	public static final RegistryObject<EcnuCustardBun> ECNUCUSTARDBUN = REGISTER.register("ecnu_custard_bun", () -> new EcnuCustardBun(new Item.Properties().food(EcnuCustardBun.ECNUCUSTARDBUN_properties)));
 
 	private ECNUItems() {
 	}

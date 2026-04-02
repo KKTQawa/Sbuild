@@ -35,13 +35,6 @@ public class ModZhCnLangProvider extends LanguageProvider {
         this.add("block." + MODID + ".chest_magic", "盒子");
         this.add("container." + MODID + ".chest_magic", "盒子");
 
-
-        add(ECNUItems.NULLSET.get(), "空集");
-        this.add("item." + MODID + ".nullset.description", "空集社长伟大喵！");
-
-        add(ECNUItems.ECNUCUSTARDBUN.get(), "奶黄包");
-        this.add("item." + MODID + ".custard_bun.description", "奶黄包，用于吃。");
-
         // ================= Building Block Items =================
         add(ECNUItems.BRICK_YELLOW_ITEM.get(), "黄砖");
         this.add("item." + MODID + ".brick_yellow.description", "极具现代气息的黄砖");

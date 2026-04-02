@@ -1,12 +1,10 @@
 package org.ecnumc.sbuild.common;
 
-import net.minecraftforge.data.loading.DatagenModLoader;
 import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-import org.ecnumc.sbuild.common.entities.NullsetEntity;
 import org.ecnumc.sbuild.common.registries.*;
 
 
@@ -36,7 +34,6 @@ public final class ECNUContent {
 
 	@SubscribeEvent
 	public static void onAttributeCreate(EntityAttributeCreationEvent event) {
-		event.put(ECNUEntityTypes.NULLSET.get(), NullsetEntity.createAttributes().build());
 	}
 
 }

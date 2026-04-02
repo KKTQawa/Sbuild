@@ -12,9 +12,6 @@ public class ModEnUsLangProvider extends LanguageProvider {
     @Override
     protected void addTranslations() {
 
-        add(ECNUItems.ECNUCUSTARDBUN.get(), "ECNU Custard Bun");
-        this.add("item." + MODID + ".ecnu_custard_bun.description", "ECNU Custard Bun, used to eat.");
-
         this.add("itemGroup." + MODID + ".ecnu", "ECNU Dawn Redwood Blocks");
         //logo
         this.add("item." + MODID + ".mod_logo1", "LOGO");

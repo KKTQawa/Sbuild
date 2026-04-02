@@ -12,7 +12,6 @@ import static org.ecnumc.sbuild.ECNUForge.MODID;
  */
 @OnlyIn(Dist.CLIENT)
 public class ECNULayerLocations {
-	public static final ModelLayerLocation NULLSET = new ModelLayerLocation(new ResourceLocation(MODID, "nullset"), "main");
 
 	private ECNULayerLocations() {
 	}

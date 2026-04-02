@@ -24,8 +24,6 @@ public class ModItemTagsProvider extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.@NotNull Provider lookupProvider) {
         //自定义
-        tag(ECNUItemTags.ECNUCUSTARDBUN_TAG)
-                .add(ECNUItems.ECNUCUSTARDBUN.get());
 
         // Grid 系列
         tag(ECNUItemTags.ECNUGRID_TAG)

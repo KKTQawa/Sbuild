@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/Viola-Siemens/ECNU-Minecraft-Mod-Template/is
 
 [[mods]]
 modId="sbuild"
-version="${file.jarVersion}"
+version="1.1.1"
 displayName="Sbuild"
 credits="Liu Dongyu、9090"
 authors="9090"

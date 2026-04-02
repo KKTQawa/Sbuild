@@ -15,8 +15,6 @@ public class ModItemModelsProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
 
-        basicItem(ECNUItems.ECNUCUSTARDBUN.get());
-
         //logo
         basicItem(ECNUItems.LOGO1.get());
         basicItem(ECNUItems.LOGO.get());

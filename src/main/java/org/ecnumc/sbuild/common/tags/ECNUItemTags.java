@@ -9,7 +9,6 @@ import net.minecraft.world.item.Item;
 import static org.ecnumc.sbuild.ECNUForge.MODID;
 
 public class ECNUItemTags {
-    public static final TagKey<Item>ECNUCUSTARDBUN_TAG=bind(MODID + "_custardbun");
 
     public static final TagKey<Item> ECNUGRID_TAG=bind(MODID + "_grid");
     public static final TagKey<Item> ECNULINE_TAG=bind(MODID + "_line");

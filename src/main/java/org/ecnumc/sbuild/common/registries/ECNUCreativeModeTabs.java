@@ -29,8 +29,7 @@ public final class ECNUCreativeModeTabs {
 					.title(Component.translatable("itemGroup." + MODID).withStyle(Style.EMPTY.withColor(TextColor.fromRgb(0xFF5555))) )
 					.icon(() -> new ItemStack(ECNUItems.LOGO1.get()))
 					.displayItems((flags, output) -> {
-						//空集社长
-						//output.accept(ECNUItems.NULLSET.get());
+
 						// ================= Paintings =================
 //						ItemStack paintingStack = new ItemStack(Items.PAINTING);
 //						CompoundTag entityTag = new CompoundTag();
